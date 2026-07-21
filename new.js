@@ -1,8 +1,8 @@
 
-alert("enter the amount you want to convert");
+
 let Initial=document.querySelector(".input");
-let Input=prompt("enter the amount");
-Initial.value=Input;
+
+let input=Initial.value;
 
 let Result=document.querySelector(".input1");
 

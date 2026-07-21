@@ -6,7 +6,10 @@ body{
     padding-bottom:30px;
     margin-bottom:30px;
     position:relative;
-    background:linear-gradient(135deg,#eef2f7,#dde6f0);
+   background: adial-gradient(circle at 15% 10%,#2F8A684D, transparent 45%);
+    background: adial-gradient(circle at 90% 85% #D9A67924,transparent 50%);
+     background: linear-gradient(160deg,#06231C 0%,#051A15 60%, #030F0C 100%);
+   
 
 }
 
@@ -15,26 +18,37 @@ body{
 .Intro{
    text-align: center; 
    text-shadow: none;
-   width:100%;
-   height:30%;
-   border: 2px solid #1a365d;
+   text-transform: uppercase;
+ color:#F0C8A0;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
    border-radius:5px;
-   background-color:#0d1b3d;
-   color:#ffffff;
+  
+}
+
+.p{
+    position:absolute;
+    left:353px;
+    top:180px;
+    font-size:24px ;
+    color:#b9c9c1;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 .Input input{
 position:absolute;
 border-radius:5px;
-width:300px;
+color:#F2ECE2;
+width:555px;
 height: 50px;
-left:460px;
-top:200px;
-text-align: center;
+left:350px;
+top:250px;
 font-size:24px ;
-pointer-events: none;
-background-color: #ff7a5c;
-color:#1a1a1a;
+background-color: rgba(0,0,0,0.24);
+border:1px solid #D9A679;
+
+
 }
 
 
@@ -42,78 +56,82 @@ color:#1a1a1a;
     position:absolute;
     left :350px;
     top:300px;
-    text-align: center;
-    font-size: 28px;
+      color:#b9c9c1;
+    font-size: 24px;
     font-weight: 6px;
     border-radius:5px;
-color:#1b2a4a;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 
 .from{
     width:260px;
     height:60px;
+    color:#f2ece2;
+      background-color: #06231c;
     text-align: center;
-    font-size:18px ;
+    font-size:20px ;
     border-radius:5px;
-    background-color: #ff7a5c;
-color:#1a1a1a;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
 }
 
 .ConvertedTo{
     position:absolute;
     left :650px;
     top:300px;
-    text-align: center;
-    font-size: 28px;
+      color:#b9c9c1;
+    font-size: 24px;
     font-weight: 6px;
     border-radius:5px;
-    color:#1b2a4a;
-     
-
-   
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .to{
     width:260px;
     height:60px;
+     color:#F2ECE2;
+     background-color: #06231c;
     text-align: center;
-    font-size:18px ;
+    font-size:20px ;
     border-radius:5px;
-     background-color: #ff7a5c;
-color:#1a1a1a;
-   
-
-
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Input2 input{
 position:absolute;
-width:300px;
+width:555px;
 height: 50px;
-left:460px;
+left:350px;
+background:linear-gradient(135deg,#F0C8A0,#D9A679 55%,#B8825A);
+color:#0C231C;
 top:500px;
 text-align: center;
 font-size:24px ;
 pointer-events: none;
 border-radius:5px;
-background-color: #ff7a5c;
-color:#1a1a1a;
+background-color: rgba(0,0,0,0.24);
+border:1px solid #D9A679
+
 }
 
 #All1{
-    border: 1px solid black;
+    border: 2px solid #D9A679;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(217,166,121,0.35);
+    background-color: linear-gradient(165deg,#1C5C458C,#06231CF2),#0C3226;
+    
     padding:40px;
     padding-left:38px;
     padding-bottom: 130px;
-    width:750px;
-    height:380px;
+    width: 750px;;
+    height:540px;
     margin:40px auto;
     flex-direction: column;
     align-items: center;
     gap :20px;
-    border-radius:8px;
-    background-color: #ffffff;
+    
+    box-sizing: border-box;
 }
 
 
